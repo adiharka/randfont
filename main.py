@@ -8,11 +8,10 @@ import random
 import os
 
 # List of font
-fontlist = ['Times New Roman', 'Calibri', 'And other font you want to include']
+fontlist = ['Font1', 'Font2', 'And more']
 
 # Read file (make sure your path is right)
-file = os.path.abspath('yourfile.docx')
-print(file)
+path = "C:\Directory\ToYourFile"
 doc = Document(path)
 
 # Convert docx to String
